@@ -9,3 +9,14 @@ If you want see a full example with all posibilities that the theme offers we re
 Coming up next we show you some images with the final aspect of the theme. We hope you enjoy it.
 
 Entrepixels theme is open source, you can modify, redistribute or why not, contribute to improve it. 
+
+![entrepixels-theme 01](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/home.png)
+
+![entrepixels-theme 02](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/services.png)
+
+![entrepixels-theme 03](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/gallery.png)
+
+![entrepixels-theme 04](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/contact.png)
+
+![entrepixels-theme 05](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/styles.png)
+
