@@ -1,0 +1,40 @@
+#*
+This file allows you to override and define new Velocity variables.
+*#
+
+#set ($url_portal = $theme_display.getURLPortal())
+#set ($url_portal_friendlyUrlPublic = $url_portal.concat($theme_display.getPathFriendlyURLPublic()))
+#set ($url_portal_current_url_public = $url_portal_friendlyUrlPublic.concat($layout.getGroup().getFriendlyURL()))
+
+#set ($layoutUtil = $serviceLocator.findService('com.liferay.portal.service.LayoutLocalService'))
+#set ($show_site_name="false")
+
+
+## LOGO ##
+#set ($color_scheme = $theme_display.getColorScheme().getCssClass())
+	
+#if (($company.getLogoId() == 0) && $use_company_logo && $theme_settings.display-company-logo != true)
+	
+	#set ($site_logo_height = 101)
+	#set ($site_logo_width = 439)
+
+	#set ($site_logo = "${images_folder}/entrepixels-logo.png")
+	
+#end
+
+
+## SITEMAP TOOLS ##
+
+#set($layoutLocalService = $serviceLocator.findService("com.liferay.portal.service.LayoutLocalService"))
+#set($rluuid = $layoutLocalService.getFriendlyURLLayout($group_id, false, "/links"))
+
+## SITEMAP FOOT ##
+
+#set($layoutLocalServiceFooter = $serviceLocator.findService("com.liferay.portal.service.LayoutLocalService"))
+#set($rluuidfoot = $layoutLocalServiceFooter.getFriendlyURLLayout($group_id, false, "/links-footer"))
+
+## SHOW ACCESS ##
+#set ($showAccess = $theme.getSetting("show-access"))
+
+
+

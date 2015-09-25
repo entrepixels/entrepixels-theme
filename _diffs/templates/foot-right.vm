@@ -1,0 +1,17 @@
+<div class="foot-right-links">
+	$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
+	$velocityPortletPreferences.setValue("displayDepth", "1")
+	$velocityPortletPreferences.setValue("rootLayoutUuid", $rluuidfoot.getUuid())
+	$theme.runtime("85_INSTANCE_epxfootlink", "", $velocityPortletPreferences.toString())
+	$velocityPortletPreferences.reset()
+</div>
+
+<div class="socialMedia">
+	$velocityPortletPreferences.setValue("groupId", "$group_id")
+	$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
+	
+	$velocityPortletPreferences.setValue("articleId", "SOCIAL-MEDIA")
+	$theme.runtime("56_INSTANCE_epxsocialmediabottomnature", "", $velocityPortletPreferences.toString())
+	$velocityPortletPreferences.reset()
+	
+</div>

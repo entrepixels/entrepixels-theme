@@ -1,0 +1,30 @@
+## Portlet Mapa web
+
+<div class="recursive">
+	$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
+	$velocityPortletPreferences.setValue("displayDepth", "1")
+	$velocityPortletPreferences.setValue("rootLayoutUuid", $rluuid.getUuid())
+	$theme.runtime("85_INSTANCE_epxlink", "", $velocityPortletPreferences.toString())
+	$velocityPortletPreferences.reset()
+</div>
+
+
+<div class="aside">
+	## Portlet visor de contenido web
+	<div class="socialMedia">
+	    	
+		$velocityPortletPreferences.setValue("groupId", "$group_id")
+		$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
+		$velocityPortletPreferences.setValue("articleId", "SOCIAL-MEDIA")
+		$theme.runtime("56_INSTANCE_epxsocialmedia", "", $velocityPortletPreferences.toString())
+		$velocityPortletPreferences.reset()
+			
+	</div>
+	
+	## Formulario redirige al portlet de Busqueda web
+	<div class="search">
+		$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
+		$theme.runtime("3_INSTANCE_epxs", "", $velocityPortletPreferences.toString())
+		$velocityPortletPreferences.reset()
+	</div>
+</div>

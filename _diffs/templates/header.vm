@@ -1,0 +1,9 @@
+
+$velocityPortletPreferences.setValue("groupId", "$group_id")
+$velocityPortletPreferences.setValue("articleId", "HOME")
+$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
+$theme.runtime("56_INSTANCE_epxhome", "", $velocityPortletPreferences.toString())
+$velocityPortletPreferences.reset()
+
+
+
