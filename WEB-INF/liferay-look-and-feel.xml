@@ -7,7 +7,7 @@
 	</compatibility>
 	<theme id="entrepixels" name="Entrepixels Theme">
 		<settings>
-			<setting configurable="true" key="show-access" type="checkbox" value="true" />	
+			<setting configurable="true" key="show-access" type="checkbox" value="true" />
 		</settings>
 	</theme>
 </look-and-feel>

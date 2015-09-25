@@ -10,7 +10,7 @@
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	$theme.include($top_head_include)
 
-    
+
 </head>
 
 <body class="$css_class">
@@ -31,20 +31,20 @@ $theme.include($body_top_include)
 					<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
 				</a>
 
-				
+
 				#if ($show_site_name)
 					<span class="site-name" title="#language_format ("go-to-x", [$site_name])">
 						$site_name
 					</span>
 				#end
-			
+
 			</h1>
 
-			
+
 			<h2 class="page-title">
 				<span>$the_title</span>
 			</h2>
-			
+
 		</div>
 
 		#if (!$is_signed_in && ($showAccess == true))
@@ -52,33 +52,25 @@ $theme.include($body_top_include)
 		#end
 
 		<div id="tools">
-			#parse ("$full_templates_path/tools.vm")	
+			#parse ("$full_templates_path/tools.vm")
 		</div>
-		
-		
+
+
 		#if ($has_navigation || $is_signed_in)
 			#parse ("$full_templates_path/navigation.vm")
 		#end
 	</header>
 
 	<div id="content">
-	
-			
-			
-	##	#if ($themeDisplay.getLayout().getGroup().getDefaultPublicPlid() != $themeDisplay.getLayout().getPlid())
-	##		<nav id="breadcrumbs">#breadcrumbs()</nav>
-	##	#end
-			
-		
 		<div class="layoutt">
-			
+
 			#if ($selectable)
 				$theme.include($content_include)
 			#else
 				$portletDisplay.recycle()
-	
+
 				$portletDisplay.setTitle($the_title)
-	
+
 				$theme.wrapPortlet("portlet.vm", $content_include)
 			#end
 		</div>
@@ -86,16 +78,16 @@ $theme.include($body_top_include)
 
 	<footer id="footer" role="contentinfo">
 		<div class="footer-cont">
-			<div class="foot-left"> 
+			<div class="foot-left">
 				#parse ("$full_templates_path/foot-left.vm")
 			</div>
 			<div class="foot-right">
 				#parse ("$full_templates_path/foot-right.vm")
 			</div>
 		</div>
-	
+
 	</footer>
-	
+
 </div>
 
 $theme.include($body_bottom_include)
