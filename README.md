@@ -18,5 +18,9 @@ Entrepixels theme is open source, you can modify, redistribute or why not, contr
 
 ![entrepixels-theme 04](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/contact.png)
 
-![entrepixels-theme 05](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/styles.png)
+![entrepixels-theme 05](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/responsive.png)
+
+![entrepixels-theme 06](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/responsive-menu.png)
+
+![entrepixels-theme 07](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/styles.png)
 
