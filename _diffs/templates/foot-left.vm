@@ -1,12 +1,5 @@
-
 $velocityPortletPreferences.setValue("groupId", "$group_id")
 $velocityPortletPreferences.setValue("articleId", "FOOT-TOP")
 $velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
 $theme.runtime("56_INSTANCE_epxfoottop", "", $velocityPortletPreferences.toString())
 $velocityPortletPreferences.reset()
-
-
-
-
-
-

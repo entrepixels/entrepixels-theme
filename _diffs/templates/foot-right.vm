@@ -9,9 +9,7 @@
 <div class="socialMedia">
 	$velocityPortletPreferences.setValue("groupId", "$group_id")
 	$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
-	
 	$velocityPortletPreferences.setValue("articleId", "SOCIAL-MEDIA")
 	$theme.runtime("56_INSTANCE_epxsocialmediabottomnature", "", $velocityPortletPreferences.toString())
 	$velocityPortletPreferences.reset()
-	
 </div>

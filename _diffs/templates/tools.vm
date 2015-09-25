@@ -12,15 +12,14 @@
 <div class="aside">
 	## Portlet visor de contenido web
 	<div class="socialMedia">
-	    	
 		$velocityPortletPreferences.setValue("groupId", "$group_id")
 		$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
 		$velocityPortletPreferences.setValue("articleId", "SOCIAL-MEDIA")
 		$theme.runtime("56_INSTANCE_epxsocialmedia", "", $velocityPortletPreferences.toString())
 		$velocityPortletPreferences.reset()
-			
+
 	</div>
-	
+
 	## Formulario redirige al portlet de Busqueda web
 	<div class="search">
 		$velocityPortletPreferences.setValue("portletSetupShowBorders", "false")
