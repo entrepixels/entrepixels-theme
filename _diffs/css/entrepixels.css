@@ -49,12 +49,12 @@
 }
 
 .stylefocus {
-	background-color: #fff !important;
+	background-color: #FFF !important;
 	border: none !important;
 }
 
 .epxs-separator {
-	background-color: #e1e1e1;
+	background-color: #E1E1E1;
 	height: 1px;
 	margin: 25px 0 25px 25%;
 	width: 50%;
@@ -65,7 +65,7 @@
 	-webkit-border-radius: 20px;
 	background-color: #FCFCFC;
 	border-radius: 20px;
-	border: 2px solid #e1e1e1;
+	border: 2px solid #E1E1E1;
 	display: block;
 	height: 5px;
 	left: 50%;
@@ -106,7 +106,7 @@
 		}
 
 		a {
-			color: #97b700;
+			color: #97B700;
 			text-decoration: none;
 
 			&:hover {
@@ -144,7 +144,7 @@
 			}
 
 			h2 {
-				color: #97b700;
+				color: #97B700;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				font-size: 2em;
 			}
@@ -155,13 +155,13 @@
 			}
 
 			h3.asset-title {
-				color: #97b700;
+				color: #97B700;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				font-size: 2em;
 			}
 
 			h4 {
-				color: #97b700;
+				color: #97B700;
 				font-size: 1.3em;
 			}
 
@@ -173,7 +173,7 @@
 			}
 
 			h6 {
-				color: #97b700;
+				color: #97B700;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				font-size: 1em;
 				text-transform: uppercase;
@@ -193,13 +193,13 @@
 			}
 
 			hr {
-				background-color: #f2f2f2;
+				background-color: #F2F2F2;
 				border: 0;
 				height: 1px;
 			}
 
 			hr.color {
-				background-color: #97b700;
+				background-color: #97B700;
 			}
 
 			ul,	ol,	dl,	p, table, form,	pre, hr {
@@ -211,8 +211,8 @@
 			}
 
 			table th {
-				background-color: #97b700;
-				color: #fff;
+				background-color: #97B700;
+				color: #FFF;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				padding: 10px;
 				text-align: left;
@@ -229,8 +229,8 @@
 			}
 
 			dt {
-				background-color: #97b700;
-				color: #fff;
+				background-color: #97B700;
+				color: #FFF;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				margin-bottom: 0.5em;
 				padding: 5px 10px;
@@ -252,7 +252,7 @@
 			}
 
 			input[type="submit"], input[type="button"],	input[type="reset"], .btn-primary, .btn-primary:hover {
-				background-color: #97b700;
+				background-color: #97B700;
 				color: #333;
 			}
 
@@ -266,7 +266,7 @@
 			}
 
 			blockquote {
-				border-left-color: #97b700;
+				border-left-color: #97B700;
 			}
 		}
 
@@ -306,7 +306,7 @@
 				width: 40%;
 
 				.recursive {
-					border-left: 1px solid #ccc;
+					border-left: 1px solid #CCC;
 					float: left;
 					font-size: .9em;
 					padding: 0 2%;
@@ -370,7 +370,7 @@
 
 					input[type="text"] {
 						background-image: none;
-						border: 1px solid #ccc;
+						border: 1px solid #CCC;
 						padding: 5px 2%;
 						position: absolute;
 						right: 0;
@@ -395,7 +395,7 @@
 			#navigation ul {
 				@extend .w100fl;
 
-				border-top: 1px solid #ccc;
+				border-top: 1px solid #CCC;
 				margin: 0;
 				position: relative;
 
@@ -405,7 +405,7 @@
 					width: 20%;
 
 					a {
-						border-right: 1px solid #ccc;
+						border-right: 1px solid #CCC;
 						color: #333;
 						float: left;
 						font-family: oswaldregular, Arial, Helvetica, sans-serif;
@@ -423,22 +423,22 @@
 
 					&.selected {
 						a {
-							background: #97b700;
-							color: #fff;
+							background: #97B700;
+							color: #FFF;
 							text-decoration: none;
 
 							&:hover {
-								color: #fff;
+								color: #FFF;
 							}
 						}
 
 						li a {
-							background: #fff;
+							background: #FFF;
 							color: #333;
 
 							&:hover {
-								background-color: #97b700;
-								color: #fff;
+								background-color: #97B700;
+								color: #FFF;
 							}
 						}
 					}
@@ -449,13 +449,13 @@
 						}
 
 						a:hover {
-							background-color: #97b700;
-							color: #fff;
+							background-color: #97B700;
+							color: #FFF;
 							text-decoration: none;
 						}
 
 						ul {
-							border-bottom: 2px solid #97b700;
+							border-bottom: 2px solid #97B700;
 						}
 					}
 
@@ -466,7 +466,7 @@
 							width: 100%;
 
 							a {
-								background-color: #fff;
+								background-color: #FFF;
 								border: none;
 								color: #333;
 								font-size: 1.2em;
@@ -474,8 +474,8 @@
 								text-decoration: none;
 
 								&:hover {
-									background-color: #97b700;
-									color: #fff;
+									background-color: #97B700;
+									color: #FFF;
 								}
 							}
 						}
@@ -504,7 +504,7 @@
 				margin: 0 0 1.5em;
 
 				.breadcrumb {
-					background-color: #97b700;
+					background-color: #97B700;
 					margin-bottom: 0;
 					overflow: hidden;
 					padding: 5px 20px;
@@ -519,7 +519,7 @@
 						}
 
 						a {
-							color: #fff;
+							color: #FFF;
 						}
 
 						&:active {
@@ -548,7 +548,7 @@
 
 		footer {
 			background-color: #333;
-			color: #fff;
+			color: #FFF;
 			font-family: oswaldlight, Arial, Helvetica, sans-serif;
 			font-size: 1em;
 			letter-spacing: 1px;
@@ -581,7 +581,7 @@
 					}
 
 					a:hover {
-						color: #fff;
+						color: #FFF;
 					}
 				}
 
@@ -594,7 +594,7 @@
 						@extend .w100fl;
 
 						a:hover {
-							color: #fff;
+							color: #FFF;
 						}
 					}
 
@@ -635,7 +635,7 @@
 				h2, .description {
 					@include opacity(0.8);
 
-					background-color: #fff;
+					background-color: #FFF;
 					color: #000;
 					line-height: 160%;
 					margin-bottom: 5px;
@@ -643,7 +643,7 @@
 				}
 
 				h2 {
-					color: #97b700;
+					color: #97B700;
 					font-size: 2.5em;
 				}
 			}
@@ -686,7 +686,7 @@
 			}
 
 			li:last-child {} .cont {
-				background-color: #f2f2f2;
+				background-color: #F2F2F2;
 				bottom: 0;
 				color: #333;
 				left: 0;
@@ -695,7 +695,7 @@
 				width: 90.5%;
 
 				h2 {
-					color: #97b700;
+					color: #97B700;
 					margin: 0;
 				}
 
@@ -708,7 +708,7 @@
 				}
 
 				a {
-					color: #97b700;
+					color: #97B700;
 					font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				}
 			}
@@ -727,7 +727,7 @@
 		/* <home> */
 
 		.servicioDestacado {
-			background: #f2f2f2;
+			background: #F2F2F2;
 			float: left;
 			height: 280px;
 			padding: 10px 2%;
@@ -742,7 +742,7 @@
 			}
 
 			.description {
-				background-color: #f2f2f2;
+				background-color: #F2F2F2;
 				bottom: 0;
 				left: 0;
 				margin: 0 auto;
@@ -823,14 +823,14 @@
 				}
 
 				menu {
-					background-color: #ccc;
+					background-color: #CCC;
 				}
 			}
 		}
 
 		.txt {
 			background-color: #97B700;
-			color: #fff;
+			color: #FFF;
 			padding: 30px;
 		}
 
@@ -870,11 +870,11 @@
 
 			.image-icon {
 				&.hover, &:hover {
-					background-color: #f2f2f2;
+					background-color: #F2F2F2;
 
 					.image-thumbnail img {
-						background-color: #f2f2f2;
-						border-color: #ccc;
+						background-color: #F2F2F2;
+						border-color: #CCC;
 					}
 				}
 			}
@@ -897,15 +897,15 @@
 		}
 
 		.nav-pills .active a {
-			background-color: #97b700;
+			background-color: #97B700;
 
 			&:hover, &:focus {
-				background-color: #97b700;
+				background-color: #97B700;
 			}
 		}
 
 		.taglib-social-bookmarks {
-			background-color: #f2f2f2;
+			background-color: #F2F2F2;
 		}
 
 		.badge-info {
@@ -913,12 +913,12 @@
 		}
 
 		.lfr-token {
-			background-color: #f2f2f2;
-			border: 1px solid #ccc;
+			background-color: #F2F2F2;
+			border: 1px solid #CCC;
 
 			&:hover {
-				background-color: #f2f2f2;
-				border: 1px solid #ccc;
+				background-color: #F2F2F2;
+				border: 1px solid #CCC;
 			}
 		}
 
