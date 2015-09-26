@@ -5,17 +5,17 @@ $brandColor: #97B700;
 
 @font-face {
 	font-family: 'oswaldregular';
-	src: url('../fonts/oswald-regular/oswald-regular-webfont.eot');
-	src: url('../fonts/oswald-regular/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald-regular/oswald-regular-webfont.woff') format('woff'), url('../fonts/oswald-regular/oswald-regular-webfont.ttf') format('truetype'), url('../fonts/oswald-regular/oswald-regular-webfont.svg#oswaldregular') format('svg');
-	font-weight: normal;
+	src: url(../fonts/oswald-regular/oswald-regular-webfont.eot);
+	src: url(../fonts/oswald-regular/oswald-regular-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/oswald-regular/oswald-regular-webfont.woff) format('woff'), url(../fonts/oswald-regular/oswald-regular-webfont.ttf) format('truetype'), url(../fonts/oswald-regular/oswald-regular-webfont.svg#oswaldregular) format('svg');
 	font-style: normal;
+	font-weight: normal;
 }
 @font-face {
 	font-family: 'oswaldlight';
-	src: url('../fonts/oswald-light/oswald-light-webfont.eot');
-	src: url('../fonts/oswald-light/oswald-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald-light/oswald-light-webfont.woff') format('woff'), url('../fonts/oswald-light/oswald-light-webfont.ttf') format('truetype'), url('../fonts/oswald-light/oswald-light-webfont.svg#oswaldregular') format('svg');
-	font-weight: normal;
+	src: url(../fonts/oswald-light/oswald-light-webfont.eot);
+	src: url(../fonts/oswald-light/oswald-light-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/oswald-light/oswald-light-webfont.woff) format('woff'), url(../fonts/oswald-light/oswald-light-webfont.ttf) format('truetype'), url(../fonts/oswald-light/oswald-light-webfont.svg#oswaldregular) format('svg');
 	font-style: normal;
+	font-weight: normal;
 }
 
 /* EXTEND */
@@ -66,8 +66,8 @@ $brandColor: #97B700;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	background-color: #FCFCFC;
-	border-radius: 20px;
 	border: 2px solid #E1E1E1;
+	border-radius: 20px;
 	display: block;
 	height: 5px;
 	left: 50%;
@@ -227,7 +227,7 @@ $brandColor: #97B700;
 			}
 
 			table tr:nth-child(2n) > td, table tr:nth-child(2n) > th, .table-striped tbody > tr:nth-child(2n) > td,	.table-striped tbody > tr:nth-child(2n) > th {
-				background-color: #f6fed2;
+				background-color: #F6FED2;
 			}
 
 			dt {
