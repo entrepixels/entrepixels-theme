@@ -32,8 +32,8 @@
 
 		footer .footer-cont {
 			max-width: 960px;
-			padding-right: 20px;
 			padding-left: 20px;
+			padding-right: 20px;
 		}
 
 		.carousel {
@@ -41,6 +41,7 @@
 		}
 	}
 }
+
 @media (max-width: 979px) {
 	.aui body {
 		#wrapper {
@@ -61,29 +62,29 @@
 
 		header {
 			#heading {
-				width: 100%;
 				float: none;
-				text-align: center;
 				margin-top: 65px;
+				text-align: center;
+				width: 100%;
 			}
 
 			#tools {
-				width: 100%;
 				float: none;
 				text-align: center;
+				width: 100%;
 
 				.recursive {
-					padding: 0;
-					width: 100%;
-					float: none;
 					border: none;
+					float: none;
+					padding: 0;
 					padding-bottom: 15px;
+					width: 100%;
 
 					ul li {
-						display: inline-block;
 						background: none;
-						padding-right: 5px;
 						background: transparent url(../images/css/bullet-recursive.png) no-repeat 0 50%;
+						display: inline-block;
+						padding-right: 5px;
 
 						&:first-child {
 							background-image: none;
@@ -102,72 +103,72 @@
 				}
 
 				.aside {
-					width: 100%;
 					float: none;
+					width: 100%;
 				}
 
 				.search input[type="text"] {
-					width: 99.8%;
-					padding: 5px 0;
 					margin-bottom: 15px;
+					padding: 5px 0;
 					position: inherit;
+					width: 99.8%;
 				}
 			}
 
 			.nav-responsive {
-				display: block;
 				background: #f2f2f2;
 				border-bottom: 2px solid #ccc;
+				display: block;
+				height: 50px;
+				padding: 0;
 				position: absolute;
 				top: 15px;
-				padding: 0;
 				width: 100%;
-				height: 50px;
 
 				.navbar-btn-nav {
+					background: transparent url(../images/css/navigation.png) no-repeat 0 0;
+					cursor: pointer;
+					height: 50px;
 					position: absolute;
 					right: 0;
 					top: 0;
-					background: transparent url(../images/css/navigation.png) no-repeat 0 0;
 					width: 50px;
-					height: 50px;
-					cursor: pointer;
 				}
 			}
 
 			#navigation {
 				display: none;
+				left: 0;
 				padding: 0;
 				position: absolute;
-				z-index: 9;
-				width: 100%;
-				left: 0;
 				top: 65px;
+				width: 100%;
+				z-index: 9;
 
 				ul li {
-					display: block;
 					border-bottom: 1px solid #ccc;
-					width: 100%;
-					float: none;
 					clear: both;
+					display: block;
+					float: none;
+					width: 100%;
 
 					a {
 						background-color: #97b700;
 						color: #fff;
-						text-align: left;
-						float: none;
 						display: block;
+						float: none;
 						font-size: 1.2em;
 						padding: 10px 2%;
+						text-align: left;
 					}
 
 					span.child-button {
-						width: 40px;
+						cursor: pointer;
 						height: 40px;
 						position: absolute;
 						right: 0;
 						top: 0;
-						cursor: pointer;
+						width: 40px;
 
 						&.up {
 							background: transparent url(../images/css/arrow-responsive-down.png) no-repeat 50% 50%;
@@ -179,16 +180,16 @@
 					}
 
 					.child-menu {
-						width: 100%;
-						position: relative;
-						margin: 0;
-						top: 0;
 						display: none;
+						margin: 0;
+						position: relative;
+						top: 0;
+						width: 100%;
 
 						li {
+							display: inherit;
 							position: inherit;
 							width: 100%;
-							display: inherit;
 
 							a {
 								font-size: 1em;
@@ -222,49 +223,49 @@
 		}
 
 		[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
-			width: 100%;
-			padding: 0;
-			margin: 0;
-			float: none;
 			display: block;
+			float: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
 		}
 
 		.servicioDestacado {
-			width: 100%;
-			padding-right: 0;
-			padding-left: 0;
-			height: auto;
 			float: none;
-			position: inherit;
+			height: auto;
 			margin: 0 0 10px !important;
+			padding-left: 0;
+			padding-right: 0;
+			position: inherit;
+			width: 100%;
 
 			.description {
+				left: inherit;
 				position: inherit;
 				right: inherit;
-				left: inherit;
 				text-align: center;
 			}
 		}
 
 		footer .footer-cont {
 			max-width: 960px;
-			padding-right: 20px;
 			padding-left: 20px;
+			padding-right: 20px;
 			text-align: center;
 
 			.foot-left {
-				width: 100%;
-				margin: 0;
 				float: none;
+				margin: 0;
 				padding-bottom: 0;
+				width: 100%;
 			}
 
 			.foot-right {
-				width: 100%;
+				border-top: 1px solid #666;
+				float: none;
 				margin: 0;
 				padding: 20px 0;
-				float: none;
-				border-top: 1px solid #666;
+				width: 100%;
 
 				.foot-right-links {
 					float: none;
@@ -284,19 +285,19 @@
 		}
 
 		.head-service li {
-			width: 100%;
+			background-color: #f2f2f2;
 			margin: 0;
-			position: inherit;
 			margin-bottom: 15px;
 			padding: 20px 0 0;
-			background-color: #f2f2f2;
+			position: inherit;
+			width: 100%;
 
 			.cont {
-				padding: 10px 0;
-				width: 100%;
-				position: inherit;
 				bottom: inherit;
 				left: inherit;
+				padding: 10px 0;
+				position: inherit;
+				width: 100%;
 
 				p.more {
 					text-align: center;
@@ -320,8 +321,8 @@
 		.portlet-layout .img.fl {
 			float: none;
 			margin: 0 0 10px;
-			width: inherit;
 			text-align: center;
+			width: inherit;
 
 			img {
 				width: auto;
