@@ -116,8 +116,9 @@
 		}
 
 		.portlet-layout {
-			float: none;
 			@extend .centred;
+
+			float: none;
 
 			.portlet-boundary {
 				margin: 0 0 1.5em;
@@ -314,11 +315,11 @@
 					ul {
 						list-style: none;
 						margin: 0 0 0 5px;
-					}
 
-					ul li {
-						padding-left: 10px;
-						background: transparent url(../images/css/bullet.png) no-repeat 0 50%;
+						li {
+							padding-left: 10px;
+							background: transparent url(../images/css/bullet.png) no-repeat 0 50%;
+						}
 					}
 
 					a {
@@ -391,50 +392,86 @@
 
 			/* <navigation> */
 
-			#navigation {
-				ul {
-					@extend .w100fl;
+			#navigation ul {
+				@extend .w100fl;
 
-					border-top: 1px solid #ccc;
-					margin: 0;
-					position: relative;
+				border-top: 1px solid #ccc;
+				margin: 0;
+				position: relative;
 
-					li {
-						width: 20%;
-						padding: 0;
+				li {
+					width: 20%;
+					padding: 0;
+					float: left;
+
+					a {
+						color: #333;
 						float: left;
+						width: 96%;
+						padding: 20px 2%;
+						border-right: 1px solid #ccc;
+						vertical-align: middle;
+						text-align: center;
+						font-size: 1.7em;
+						font-family: oswaldregular, Arial, Helvetica, sans-serif;
+						letter-spacing: 1px;
+					}
 
+					&:last-child a {
+						border: none;
+					}
+
+					&.selected {
 						a {
-							color: #333;
-							float: left;
-							width: 96%;
-							padding: 20px 2%;
-							border-right: 1px solid #ccc;
-							vertical-align: middle;
-							text-align: center;
-							font-size: 1.7em;
-							font-family: oswaldregular, Arial, Helvetica, sans-serif;
-							letter-spacing: 1px;
-						}
+							background: #97b700;
+							color: #fff;
+							text-decoration: none;
 
-						&:last-child a {
-							border: none;
-						}
-
-						&.selected {
-							a {
-								background: #97b700;
+							&:hover {
 								color: #fff;
-								text-decoration: none;
-
-								&:hover {
-									color: #fff;
-								}
 							}
+						}
 
-							li a {
-								background: #fff;
+						li a {
+							background: #fff;
+							color: #333;
+
+							&:hover {
+								background-color: #97b700;
+								color: #fff;
+							}
+						}
+					}
+
+					&:hover {
+						li {
+							display: block;
+						}
+
+						a:hover {
+							background-color: #97b700;
+							color: #fff;
+							text-decoration: none;
+						}
+
+						ul {
+							border-bottom: 2px solid #97b700;
+						}
+					}
+
+					ul {
+						li {
+							width: 100%;
+							list-style: none;
+							display: none;
+
+							a {
+								border: none;
+								font-size: 1.2em;
+								padding: 5px 2%;
+								background-color: #fff;
 								color: #333;
+								text-decoration: none;
 
 								&:hover {
 									background-color: #97b700;
@@ -442,48 +479,10 @@
 								}
 							}
 						}
-
-						&:hover {
-							li {
-								display: block;
-							}
-
-							a:hover {
-								background-color: #97b700;
-								color: #fff;
-								text-decoration: none;
-							}
-
-							ul {
-								border-bottom: 2px solid #97b700;
-							}
-						}
-
-						ul {
-							li {
-								width: 100%;
-								list-style: none;
-								display: none;
-
-								a {
-									border: none;
-									font-size: 1.2em;
-									padding: 5px 2%;
-									background-color: #fff;
-									color: #333;
-									text-decoration: none;
-
-									&:hover {
-										background-color: #97b700;
-										color: #fff;
-									}
-								}
-							}
-						}
 					}
 				}
 
-				ul ul {
+				ul {
 					margin: 0 !important;
 					border: none;
 					position: absolute;
@@ -842,7 +841,7 @@
 				display: table-cell;
 				text-align: center;
 
-				img {} p {
+				p {
 					padding: 10px 0;
 					font-size: 1.1em;
 					font-family: oswaldregular, Arial, Helvetica, sans-serif;
@@ -868,6 +867,7 @@
 			.image-icon {
 				&.hover, &:hover {
 					background-color: #f2f2f2;
+
 					.image-thumbnail img {
 						background-color: #f2f2f2;
 						border-color: #ccc;
@@ -892,13 +892,11 @@
 			-ms-filter: alpha(opacity=80) !important;
 		}
 
-		.nav-pills {
-			.active a {
-				background-color: #97b700;
+		.nav-pills .active a {
+			background-color: #97b700;
 
-				&:hover, &:focus {
-					background-color: #97b700;
-				}
+			&:hover, &:focus {
+				background-color: #97b700;
 			}
 		}
 
@@ -920,8 +918,7 @@
 			}
 		}
 
-		.portlet-blogs {
-			.entry-links {
+		.portlet-blogs .entry-links {
 				margin: 1em 0;
 			}
 		};

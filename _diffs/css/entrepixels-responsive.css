@@ -1,10 +1,8 @@
 @import "compass";
 
 @media (max-width: 1220px) {
-	.aui {
-		body {
-			padding: 0 20px;
-		}
+	.aui body {
+		padding: 0 20px;
 	}
 }
 
@@ -13,360 +11,346 @@
 		max-width: 980px;
 	}
 
-	.aui {
-		body {
-			header {
-				max-width: 980px;
+	.aui body {
+		header {
+			max-width: 980px;
 
-				#tools {
-					.recursive a {
-						letter-spacing: inherit;
-					}
+			#tools {
+				.recursive a {
+					letter-spacing: inherit;
+				}
 
-					.socialMedia img {
-						max-width: 37px;
-					}
+				.socialMedia img {
+					max-width: 37px;
 				}
 			}
+		}
 
-			.servicioDestacado {
-				img {
-					max-height: 76px !important;
-				}
-			}
+		.servicioDestacado img {
+			max-height: 76px !important;
+		}
 
-			footer .footer-cont {
-				max-width: 960px;
-				padding-right: 20px;
-				padding-left: 20px;
-			}
+		footer .footer-cont {
+			max-width: 960px;
+			padding-right: 20px;
+			padding-left: 20px;
+		}
 
-			.carousel {
-				height: 305px !important;
-			}
+		.carousel {
+			height: 305px !important;
 		}
 	}
 }
 @media (max-width: 979px) {
-	.aui {
-		body {
-			#wrapper {
-				position: relative;
+	.aui body {
+		#wrapper {
+			position: relative;
+		}
+
+		.t-center {
+			margin-bottom: 0;
+		}
+
+		.head {
+			display: none;
+		}
+
+		.portlet-dockbar {
+			display: none;
+		}
+
+		header {
+			#heading {
+				width: 100%;
+				float: none;
+				text-align: center;
+				margin-top: 65px;
 			}
 
-			.t-center {
-				margin-bottom: 0;
-			}
+			#tools {
+				width: 100%;
+				float: none;
+				text-align: center;
 
-			.head {
-				display: none;
-			}
-
-			.portlet-dockbar {
-				display: none;
-			}
-
-			header {
-				#heading {
-					width: 100%;
-					float: none;
-					text-align: center;
-					margin-top: 65px;
-				}
-
-				#tools {
-					width: 100%;
-					float: none;
-					text-align: center;
-
-					.recursive {
-						padding: 0;
-						width: 100%;
-						float: none;
-						border: none;
-						padding-bottom: 15px;
-
-						ul {
-							li {
-								display: inline-block;
-								background: none;
-								padding-right: 5px;
-								background: transparent url(../images/css/bullet-recursive.png) no-repeat 0 50%;
-
-								&:first-child {
-									background-image: none;
-								}
-							}
-						}
-					}
-
-					.socialMedia {
-						float: none;
-						text-align: center;
-
-						img {
-							float: none;
-							width: 37px;
-						}
-					}
-
-					.aside {
-						width: 100%;
-						float: none;
-					}
-
-					.search input[type="text"] {
-						width: 99.8%;
-						padding: 5px 0;
-						margin-bottom: 15px;
-						position: inherit;
-					}
-				}
-
-				.nav-responsive {
-					display: block;
-					background: #f2f2f2;
-					border-bottom: 2px solid #ccc;
-					position: absolute;
-					top: 15px;
+				.recursive {
 					padding: 0;
 					width: 100%;
-					height: 50px;
+					float: none;
+					border: none;
+					padding-bottom: 15px;
 
-					.navbar-btn-nav {
+					ul li {
+						display: inline-block;
+						background: none;
+						padding-right: 5px;
+						background: transparent url(../images/css/bullet-recursive.png) no-repeat 0 50%;
+
+						&:first-child {
+							background-image: none;
+						}
+					}
+				}
+
+				.socialMedia {
+					float: none;
+					text-align: center;
+
+					img {
+						float: none;
+						width: 37px;
+					}
+				}
+
+				.aside {
+					width: 100%;
+					float: none;
+				}
+
+				.search input[type="text"] {
+					width: 99.8%;
+					padding: 5px 0;
+					margin-bottom: 15px;
+					position: inherit;
+				}
+			}
+
+			.nav-responsive {
+				display: block;
+				background: #f2f2f2;
+				border-bottom: 2px solid #ccc;
+				position: absolute;
+				top: 15px;
+				padding: 0;
+				width: 100%;
+				height: 50px;
+
+				.navbar-btn-nav {
+					position: absolute;
+					right: 0;
+					top: 0;
+					background: transparent url(../images/css/navigation.png) no-repeat 0 0;
+					width: 50px;
+					height: 50px;
+					cursor: pointer;
+				}
+			}
+
+			#navigation {
+				display: none;
+				padding: 0;
+				position: absolute;
+				z-index: 9;
+				width: 100%;
+				left: 0;
+				top: 65px;
+
+				ul li {
+					display: block;
+					border-bottom: 1px solid #ccc;
+					width: 100%;
+					float: none;
+					clear: both;
+
+					a {
+						background-color: #97b700;
+						color: #fff;
+						text-align: left;
+						float: none;
+						display: block;
+						font-size: 1.2em;
+						padding: 10px 2%;
+					}
+
+					span.child-button {
+						width: 40px;
+						height: 40px;
 						position: absolute;
 						right: 0;
 						top: 0;
-						background: transparent url(../images/css/navigation.png) no-repeat 0 0;
-						width: 50px;
-						height: 50px;
 						cursor: pointer;
+
+						&.up {
+							background: transparent url(../images/css/arrow-responsive-down.png) no-repeat 50% 50%;
+						}
+
+						&.down {
+							background: transparent url(../images/css/arrow-responsive-up.png) no-repeat 50% 50%;
+						}
 					}
-				}
 
-				#navigation {
-					display: none;
-					padding: 0;
-					position: absolute;
-					z-index: 9;
-					width: 100%;
-					left: 0;
-					top: 65px;
+					.child-menu {
+						width: 100%;
+						position: relative;
+						margin: 0;
+						top: 0;
+						display: none;
 
-					ul {
 						li {
-							display: block;
-							border-bottom: 1px solid #ccc;
+							position: inherit;
 							width: 100%;
-							float: none;
-							clear: both;
+							display: inherit;
 
 							a {
-								background-color: #97b700;
-								color: #fff;
-								text-align: left;
-								float: none;
-								display: block;
-								font-size: 1.2em;
-								padding: 10px 2%;
+								font-size: 1em;
 							}
+						}
+					}
 
-							span.child-button {
-								width: 40px;
-								height: 40px;
-								position: absolute;
-								right: 0;
-								top: 0;
-								cursor: pointer;
+					&:hover {
+						ul {
+							border: none;
+						}
 
-								&.up {
-									background: transparent url(../images/css/arrow-responsive-down.png) no-repeat 50% 50%;
-								}
-
-								&.down {
-									background: transparent url(../images/css/arrow-responsive-up.png) no-repeat 50% 50%;
-								}
-							}
-
-							.child-menu {
-								width: 100%;
-								position: relative;
-								margin: 0;
-								top: 0;
-								display: none;
-
-								li {
-									position: inherit;
-									width: 100%;
-									display: inherit;
-
-									a {
-										font-size: 1em;
-									}
-								}
-							}
-
-							&:hover {
-								ul {
-									border: none;
-								}
-
-								li {
-									display: inherit
-								}
-							}
+						li {
+							display: inherit
 						}
 					}
 				}
 			}
+		}
 
-			#content {
-				margin-bottom: 0;
-			}
+		#content {
+			margin-bottom: 0;
+		}
 
-			.portlet-column-content.empty {
-				padding: 10px;
-			}
+		.portlet-column-content.empty {
+			padding: 10px;
+		}
 
-			.portlet-layout .portlet-boundary {
-				margin: 0;
-			}
+		.portlet-layout .portlet-boundary {
+			margin: 0;
+		}
 
-			[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
-				width: 100%;
-				padding: 0;
-				margin: 0;
-				float: none;
-				display: block;
-			}
+		[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			float: none;
+			display: block;
+		}
 
-			.servicioDestacado {
-				width: 100%;
-				padding-right: 0;
-				padding-left: 0;
-				height: auto;
-				float: none;
+		.servicioDestacado {
+			width: 100%;
+			padding-right: 0;
+			padding-left: 0;
+			height: auto;
+			float: none;
+			position: inherit;
+			margin: 0 0 10px !important;
+
+			.description {
 				position: inherit;
-				margin: 0 0 10px !important;
+				right: inherit;
+				left: inherit;
+				text-align: center;
+			}
+		}
 
-				.description {
-					position: inherit;
-					right: inherit;
-					left: inherit;
+		footer .footer-cont {
+			max-width: 960px;
+			padding-right: 20px;
+			padding-left: 20px;
+			text-align: center;
+
+			.foot-left {
+				width: 100%;
+				margin: 0;
+				float: none;
+				padding-bottom: 0;
+			}
+
+			.foot-right {
+				width: 100%;
+				margin: 0;
+				padding: 20px 0;
+				float: none;
+				border-top: 1px solid #666;
+
+				.foot-right-links {
+					float: none;
+					margin: 0;
+					padding-bottom: 10px;
+
+					ul {
+						list-style: none;
+						margin: 0;
+					}
+				}
+
+				.socialMedia {
+					float: none;
+				}
+			}
+		}
+
+		.head-service li {
+			width: 100%;
+			margin: 0;
+			position: inherit;
+			margin-bottom: 15px;
+			padding: 20px 0 0;
+			background-color: #f2f2f2;
+
+			.cont {
+				padding: 10px 0;
+				width: 100%;
+				position: inherit;
+				bottom: inherit;
+				left: inherit;
+
+				p.more {
 					text-align: center;
 				}
 			}
 
-			footer .footer-cont {
-				max-width: 960px;
-				padding-right: 20px;
-				padding-left: 20px;
-				text-align: center;
-
-				.foot-left {
-					width: 100%;
-					margin: 0;
-					float: none;
-					padding-bottom: 0;
-				}
-
-				.foot-right {
-					width: 100%;
-					margin: 0;
-					padding: 20px 0;
-					float: none;
-					border-top: 1px solid #666;
-
-					.foot-right-links {
-						float: none;
-						margin: 0;
-						padding-bottom: 10px;
-
-						ul {
-							list-style: none;
-							margin: 0;
-						}
-					}
-
-					.socialMedia {
-						float: none;
-					}
-				}
+			img {
+				width: auto;
 			}
+		}
 
-			.head-service li {
-				width: 100%;
-				margin: 0;
-				position: inherit;
-				margin-bottom: 15px;
-				padding: 20px 0 0;
-				background-color: #f2f2f2;
-
-				.cont {
-					padding: 10px 0;
-					width: 100%;
-					position: inherit;
-					bottom: inherit;
-					left: inherit;
-
-					p.more {
-						text-align: center;
-					}
-				}
-
-				img {
-					width: auto;
-				}
-			}
-
-			.carousel {
-				height: 238px !important;
-			}
+		.carousel {
+			height: 238px !important;
 		}
 		/*</body>*/
 	}
 }
 
 @media (max-width: 767px) {
-	.aui {
-		body {
-			.portlet-layout .img.fl {
-				float: none;
-				margin: 0 0 10px;
-				width: inherit;
-				text-align: center;
+	.aui body {
+		.portlet-layout .img.fl {
+			float: none;
+			margin: 0 0 10px;
+			width: inherit;
+			text-align: center;
 
-				img {
-					width: auto;
-				}
+			img {
+				width: auto;
 			}
+		}
 
-			.carousel {
-				height: 150px !important;
-			}
+		.carousel {
+			height: 150px !important;
 		}
 	}
 }
 
 @media (max-width: 500px) {
-	.aui {
-		body {
-			.info-contact {
+	.aui body {
+		.info-contact {
+			display: block;
+			text-align: center;
+
+			.city, .phone, .email {
 				display: block;
-				text-align: center;
-
-				.city, .phone, .email {
-					display: block;
-				}
 			}
+		}
 
-			.carousel {
-				height: 100px !important;
-			}
+		.carousel {
+			height: 100px !important;
+		}
 
-			footer .footer-cont .foot-right .socialMedia img {
-				width: 35px;
-			}
+		footer .footer-cont .foot-right .socialMedia img {
+			width: 35px;
 		}
 	}
 }
