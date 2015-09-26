@@ -94,7 +94,7 @@ $brandColor: #97B700;
 			@extend h1;
 
 			border-bottom: 1px solid #666;
-			margin-bottom: .5em;
+			margin-bottom: 0.5em;
 			padding-bottom: 0;
 
 			.portlet-title-text {} img {
@@ -133,8 +133,8 @@ $brandColor: #97B700;
 				&.line {
 					-webkit-background-clip: padding-box;
 					background-clip: padding-box;
-					border-bottom: 1px solid rgba(0, 0, 0, .5);
-					border-top: 1px solid rgba(0, 0, 0, .5);
+					border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+					border-top: 1px solid rgba(0, 0, 0, 0.5);
 				}
 			}
 
@@ -310,7 +310,7 @@ $brandColor: #97B700;
 				.recursive {
 					border-left: 1px solid #CCC;
 					float: left;
-					font-size: .9em;
+					font-size: 0.9em;
 					padding: 0 2%;
 					width: 40%;
 
@@ -574,7 +574,7 @@ $brandColor: #97B700;
 
 						border-bottom: 3px solid #666;
 						margin-bottom: 1.5em;
-						padding-bottom: .5em;
+						padding-bottom: 0.5em;
 					}
 
 					.foot-bottom-contact {
@@ -895,7 +895,7 @@ $brandColor: #97B700;
 		.yui3-widget-mask {
 			-ms-filter: alpha(opacity=80) !important;
 			filter: alpha(opacity=80) !important;
-			opacity: .8 !important;
+			opacity: 0.8 !important;
 		}
 
 		.nav-pills .active a {
