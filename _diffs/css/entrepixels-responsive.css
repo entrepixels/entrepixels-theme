@@ -1,5 +1,7 @@
 @import "compass";
 
+$brandColor: #97B700;
+
 @media (max-width: 1220px) {
 	.aui body {
 		padding: 0 20px;
@@ -153,7 +155,7 @@
 					width: 100%;
 
 					a {
-						background-color: #97B700;
+						background-color: $brandColor;
 						color: #FFF;
 						display: block;
 						float: none;

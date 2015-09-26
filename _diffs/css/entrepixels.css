@@ -1,6 +1,8 @@
 @import "compass";
 @import "mixins";
 
+$brandColor: #97B700;
+
 @font-face {
 	font-family: 'oswaldregular';
 	src: url('../fonts/oswald-regular/oswald-regular-webfont.eot');
@@ -106,7 +108,7 @@
 		}
 
 		a {
-			color: #97B700;
+			color: $brandColor;
 			text-decoration: none;
 
 			&:hover {
@@ -144,7 +146,7 @@
 			}
 
 			h2 {
-				color: #97B700;
+				color: $brandColor;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				font-size: 2em;
 			}
@@ -155,13 +157,13 @@
 			}
 
 			h3.asset-title {
-				color: #97B700;
+				color: $brandColor;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				font-size: 2em;
 			}
 
 			h4 {
-				color: #97B700;
+				color: $brandColor;
 				font-size: 1.3em;
 			}
 
@@ -173,7 +175,7 @@
 			}
 
 			h6 {
-				color: #97B700;
+				color: $brandColor;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				font-size: 1em;
 				text-transform: uppercase;
@@ -199,7 +201,7 @@
 			}
 
 			hr.color {
-				background-color: #97B700;
+				background-color: $brandColor;
 			}
 
 			ul,	ol,	dl,	p, table, form,	pre, hr {
@@ -211,7 +213,7 @@
 			}
 
 			table th {
-				background-color: #97B700;
+				background-color: $brandColor;
 				color: #FFF;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				padding: 10px;
@@ -229,7 +231,7 @@
 			}
 
 			dt {
-				background-color: #97B700;
+				background-color: $brandColor;
 				color: #FFF;
 				font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				margin-bottom: 0.5em;
@@ -252,7 +254,7 @@
 			}
 
 			input[type="submit"], input[type="button"],	input[type="reset"], .btn-primary, .btn-primary:hover {
-				background-color: #97B700;
+				background-color: $brandColor;
 				color: #333;
 			}
 
@@ -266,7 +268,7 @@
 			}
 
 			blockquote {
-				border-left-color: #97B700;
+				border-left-color: $brandColor;
 			}
 		}
 
@@ -423,7 +425,7 @@
 
 					&.selected {
 						a {
-							background: #97B700;
+							background: $brandColor;
 							color: #FFF;
 							text-decoration: none;
 
@@ -437,7 +439,7 @@
 							color: #333;
 
 							&:hover {
-								background-color: #97B700;
+								background-color: $brandColor;
 								color: #FFF;
 							}
 						}
@@ -449,13 +451,13 @@
 						}
 
 						a:hover {
-							background-color: #97B700;
+							background-color: $brandColor;
 							color: #FFF;
 							text-decoration: none;
 						}
 
 						ul {
-							border-bottom: 2px solid #97B700;
+							border-bottom: 2px solid $brandColor;
 						}
 					}
 
@@ -474,7 +476,7 @@
 								text-decoration: none;
 
 								&:hover {
-									background-color: #97B700;
+									background-color: $brandColor;
 									color: #FFF;
 								}
 							}
@@ -504,7 +506,7 @@
 				margin: 0 0 1.5em;
 
 				.breadcrumb {
-					background-color: #97B700;
+					background-color: $brandColor;
 					margin-bottom: 0;
 					overflow: hidden;
 					padding: 5px 20px;
@@ -643,7 +645,7 @@
 				}
 
 				h2 {
-					color: #97B700;
+					color: $brandColor;
 					font-size: 2.5em;
 				}
 			}
@@ -695,7 +697,7 @@
 				width: 90.5%;
 
 				h2 {
-					color: #97B700;
+					color: $brandColor;
 					margin: 0;
 				}
 
@@ -708,7 +710,7 @@
 				}
 
 				a {
-					color: #97B700;
+					color: $brandColor;
 					font-family: oswaldlight, Arial, Helvetica, sans-serif;
 				}
 			}
@@ -829,7 +831,7 @@
 		}
 
 		.txt {
-			background-color: #97B700;
+			background-color: $brandColor;
 			color: #FFF;
 			padding: 30px;
 		}
@@ -897,10 +899,10 @@
 		}
 
 		.nav-pills .active a {
-			background-color: #97B700;
+			background-color: $brandColor;
 
 			&:hover, &:focus {
-				background-color: #97B700;
+				background-color: $brandColor;
 			}
 		}
 
