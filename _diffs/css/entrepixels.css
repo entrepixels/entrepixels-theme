@@ -1,4 +1,5 @@
 @import "compass";
+@import "mixins";
 
 @font-face {
 	font-family: 'oswaldregular';
@@ -13,20 +14,6 @@
 	src: url('../fonts/oswald-light/oswald-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald-light/oswald-light-webfont.woff') format('woff'), url('../fonts/oswald-light/oswald-light-webfont.ttf') format('truetype'), url('../fonts/oswald-light/oswald-light-webfont.svg#oswaldregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
-}
-
-/* MIXINS */
-
-@mixin opacity($opacity) {
-	filter: "alpha(opacity=$opacity * 100)";
-	-moz-opacity: $opacity;
-	-khtml-opacity: $opacity;
-	opacity: $opacity;
-}
-@mixin transition( $property, $durration, $timing) {
-	@include transition-property($property);
-	@include transition-duration($durration);
-	@include transition-timing-function($timing);
 }
 
 /* EXTEND */
@@ -360,7 +347,7 @@
 						max-width: 48px;
 
 						&:hover {
-							@include opacity(0.80);
+							@include opacity(0.8);
 						}
 					}
 				}
@@ -618,7 +605,7 @@
 							max-width: 48px;
 
 							&:hover {
-								@include opacity(0.80);
+								@include opacity(0.8);
 							}
 						}
 					}
@@ -645,7 +632,7 @@
 				margin: auto;
 
 				h2, .description {
-					@include opacity(0.80);
+					@include opacity(0.8);
 
 					background-color: #fff;
 					margin-bottom: 5px;
@@ -683,7 +670,7 @@
 				img {
 					width: 100%;
 					&:hover {
-						@include opacity(0.80);
+						@include opacity(0.8);
 					}
 				}
 
@@ -764,20 +751,22 @@
 			}
 
 			img {
-				@include transition( margin, 0.2s, ease);
+				@include transition(margin 0.2s ease);
 
 				margin-bottom: 1.5em;
 
 				&:hover {
+					@include opacity(0.8);
+
 					margin-right: 60px;
-					@include opacity(0.80);
 				}
 			}
 
 			+ .servicioDestacado {
 				margin: 0 0 0 3%;
+
 				img {
-					@include transition( margin, 0.2s, ease);
+					@include transition(margin 0.2s ease);
 					&:hover {
 						margin-left: -60px;
 					}
