@@ -162,6 +162,10 @@ $brandColor: #97B700;
 						font-size: 1.2em;
 						padding: 10px 2%;
 						text-align: left;
+						
+						span{
+							padding-left:0;
+						}
 					}
 
 					span.child-button {

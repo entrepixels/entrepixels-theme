@@ -395,16 +395,18 @@ $brandColor: #97B700;
 			/* <navigation> */
 
 			#navigation ul {
-				@extend .w100fl;
+				display:table;				
 
 				border-top: 1px solid #CCC;
 				margin: 0;
+				clear:left;
 				position: relative;
+				width:100%;
 
 				li {
-					float: left;
+					display:table-cell;
 					padding: 0;
-					width: 20%;
+					vertical-align:middle;					
 
 					a {
 						border-right: 1px solid #CCC;
