@@ -11,23 +11,23 @@ Coming up next we show you some images with the final aspect of the theme. We ho
 Entrepixels theme is open source, you can modify, redistribute or why not, contribute to improve it. 
 
 Home screenshot:
-![entrepixels-theme 01](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/home.png)
+![entrepixels-theme 01](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/resume-01.jpg)
 
 Services page screenshot:
-![entrepixels-theme 02](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/services.png)
+![entrepixels-theme 02](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/home-02.jpg)
 
 Gallery page screenshot:
-![entrepixels-theme 03](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/gallery.png)
+![entrepixels-theme 03](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/services-03.jpg)
 
 Contact page screenshot:
-![entrepixels-theme 04](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/contact.png)
+![entrepixels-theme 04](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/contact-04.jpg)
 
 Responsive home screenshot:
-![entrepixels-theme 05](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/responsive.png)
+![entrepixels-theme 05](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/gallery-05.jpg)
 
 Services menu screenshot:
-![entrepixels-theme 06](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/responsive-menu.png)
+![entrepixels-theme 06](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/responsive-06.jpg)
 
 Elements style page screenshot:
-![entrepixels-theme 07](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/styles.png)
+![entrepixels-theme 07](https://github.com/entrepixels/entrepixels-theme/blob/master/WEB-INF/releng/screenshots/responsive-menu-07.jpg)
 
